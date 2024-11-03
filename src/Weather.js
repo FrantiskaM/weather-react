@@ -17,7 +17,7 @@ export default function Weather() {
   }
   function handleChange(event) {
     event.preventDefault();
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=bf54175800a55e59e6c4d6461deeef12&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=215576bab28022db35e6e64f040e1b56&units=metric`;
     axios.get(apiUrl).then(showWeather);
   }
 
